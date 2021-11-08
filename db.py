@@ -62,4 +62,11 @@ def delete_marked_leave():
     kwargs = {"Key": {PRIMARY_KEY: primary_key_val}}
     table.delete_item(**kwargs)
     print("Item deleted")
+   
+ def resolve():
+
+    primary_key_val = f"{email_id}"
+    kwargs = {"Key": {PRIMARY_KEY: primary_key_val}}
+    table.delete_item(**kwargs)
+    print("Item deleted")
     
