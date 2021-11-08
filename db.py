@@ -53,10 +53,18 @@ def get_leave_details():
         response = table.get_item(Key={PRIMARY_KEY: primary_key_val})
 
 
-
+def mymethod():
+   print("HeHe")
 
 def delete_marked_leave():
 
+
+    primary_key_val = f"{email_id}"
+    kwargs = {"Key": {PRIMARY_KEY: primary_key_val}}
+    table.delete_item(**kwargs)
+    print("Item deleted")
+   
+ def resolve():
 
     primary_key_val = f"{email_id}"
     kwargs = {"Key": {PRIMARY_KEY: primary_key_val}}

@@ -20,6 +20,23 @@ def open_account():
         print("Your Account Number is: ",account_number)
         details=[name,account_number,dob,phone_number,address,balance]
         return details
+    
+ def open_account():
+    name=input("Enter Name: ")
+
+    account_number=randint(10000,100000)
+
+    dob=input("Enter Date of Birth: ")
+    phone_number=input("Enter phone number: ")
+    address=input("Enter address: ")
+    balance=int(input("Enter balance: "))
+    if(balance<1000):
+        print("Sorry Minimum Balance should be more than 1000")
+        main()
+    else:
+        print("Your Account Number is: ",account_number)
+        details=[name,account_number,dob,phone_number,address,balance]
+        return details
 
 
 def withdraw_deposit(details):
