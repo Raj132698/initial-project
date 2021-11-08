@@ -84,6 +84,9 @@ def display_details(details):
 
     return details
 
+#yo man what conflict 
+
+
 
 def welcome():
     print("""
