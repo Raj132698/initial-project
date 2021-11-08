@@ -84,7 +84,7 @@ def display_details(details):
 
     return details
 
-
+#what the heccckkkk!!!!
 
 def welcome():
     print("""
