@@ -129,3 +129,5 @@ main()
 =======
 main()
 >>>>>>> master
+if __name__ == __main__
+    main()

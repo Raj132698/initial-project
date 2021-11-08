@@ -124,4 +124,9 @@ def main():
             print("wrong choice")
 
 
-main()
+if __name__ == __main__
+    main()
+
+Numb
+wher
+wher
