@@ -63,3 +63,9 @@ def delete_marked_leave():
     table.delete_item(**kwargs)
     print("Item deleted")
     
+def login:
+
+     pass;
+
+def logout:
+    pass;
