@@ -14,6 +14,15 @@ class User():
         print("Gender: ",self.gender)
         print("Phone Number: ",self.phone_number)
         print("Address: ",self.address)
+        
+         def show_user_details(self):
+
+        print("User Account Personal Details")
+        print(" Name: ",self.name)
+        print("Date of Birth: ",self.dob)
+        print("Gender: ",self.gender)
+        print("Phone Number: ",self.phone_number)
+        print("Address: ",self.address)
 
 class Bank(User):
     def __init__ (self,name, age,gender,phone_number,address):
