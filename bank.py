@@ -84,9 +84,6 @@ def display_details(details):
 
     return details
 
-#yo man what conflict 
-
-
 
 #what the heccckkkk!!!!
 #hey do it
