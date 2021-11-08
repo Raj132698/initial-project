@@ -62,6 +62,20 @@ def withdraw_deposit(details):
         else:
             print("Name not found")
             return details
+            if(choice=='1'):
+        drawing_amount=int(input("Enter the amount you want to withdraw: "))
+        name=input("Enter Name: ")
+        if details[0].lower() == name.lower():
+            if(details[5]< drawing_amount):
+                print("Insufficient Funds | Balance Available : ", details[5])
+                return details
+            else:
+                details[5] -= drawing_amount
+                print("Amount has been withdrawn | Updated balance is: ", details[5])
+                return details
+        else:
+            print("Name not found")
+            return details
 
     elif(choice=='2'):
         name = input("Enter Name: ")
