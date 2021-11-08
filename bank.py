@@ -85,6 +85,10 @@ def display_details(details):
     return details
 
 
+#what the heccckkkk!!!!
+#hey do it
+#yeppiii
+#yo man what conflict
 
 def welcome():
     print("""
@@ -120,4 +124,8 @@ def main():
 
 
 
+<<<<<<< HEAD
 main()
+=======
+main()
+>>>>>>> master
