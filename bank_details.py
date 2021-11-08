@@ -22,6 +22,25 @@ def open_account():
         connection.commit()
         print("Data Entered Successfully")
         main()
+        
+  def open_account():
+    name=input("Enter Name: ")
+    account_number=input("Enter Account Number: ")
+    dob=input("Enter Date of Birth: ")
+    phone_number=input("Enter phone number: ")
+    address=input("Enter address: ")
+    balance=int(input("Enter balance"))
+    if(balance<1000):
+        print("Sorry Minimum Balance should be more than 1000")
+        main()
+    else:
+        data=(name,account_number,dob,phone_number,address,balance)
+        sql='insert into account values(%s,%s,%s,%s,%s,%s)'
+        connection=conn.cursor()
+        connection.execute(sql,data)
+        connection.commit()
+        print("Data Entered Successfully")
+        main()
 
 
 def withdraw_deposit():
